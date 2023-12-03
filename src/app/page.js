@@ -1,6 +1,6 @@
 
 import './main.css'
-import PageRoot from "@/app/main";
+import PageRoot from "@/components/main";
 export default function Home() {
     return <PageRoot/>
 }

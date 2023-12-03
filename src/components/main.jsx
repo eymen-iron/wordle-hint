@@ -1,11 +1,9 @@
 'use client';
 
-import words from "./wordList.json";
+import words from "../app/wordList.json";
 import Aside from "./aside";
 import {useEffect, useState} from "react";
-import Popup from 'reactjs-popup';
-import 'reactjs-popup/dist/index.css';
-import Filters from "@/app/filters";
+import Filters from "@/components/filters";
 
 const PageRoot = () => {
     const [arr, setArr] = useState(words);
