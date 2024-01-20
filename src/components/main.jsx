@@ -2,46 +2,45 @@
 
 import words from "@/app/wordList.json";
 import Aside from "./aside";
-import {useEffect, useState} from "react";
+import { useEffect, useState } from "react";
 import Filters from "@/components/filters";
 
 const PageRoot = () => {
     const [arr, setArr] = useState(words);
     const [hidden, setHidden] = useState(false);
     const [metaVal, setMetaVal] = useState([
-            {
-                preference: 'include_word',
-                value: ''
-            },
-            {
-                preference: 'exclude_word',
-                value: ''
-            },
-            {
-                preference: 'first_letter',
-                value: ''
-            },
-            {
-                preference: 'second_letter',
-                value: ''
-            },
-            {
-                preference: 'third_letter',
-                value: ''
-            },
-            {
-                preference: 'fourth_letter',
-                value: ''
-            },
-            {
-                preference: 'fifth_letter',
-                value: ''
-            }
-        ]
+        {
+            preference: 'include_word',
+            value: ''
+        },
+        {
+            preference: 'exclude_word',
+            value: ''
+        },
+        {
+            preference: 'first_letter',
+            value: ''
+        },
+        {
+            preference: 'second_letter',
+            value: ''
+        },
+        {
+            preference: 'third_letter',
+            value: ''
+        },
+        {
+            preference: 'fourth_letter',
+            value: ''
+        },
+        {
+            preference: 'fifth_letter',
+            value: ''
+        }
+    ]
     );
     useEffect(() => {
         let filteredArr = words;
-
         metaVal.forEach(item => {
             if (item.value.length > 0) {
                 switch (item.preference) {
@@ -84,6 +83,7 @@ const PageRoot = () => {
         });
 
         setArr(filteredArr);
+
     }, [metaVal]);
 
     const handleLetter = (e) => {
@@ -107,7 +107,7 @@ const PageRoot = () => {
                     </button>
                     <div className={"absolute top-0 right-0 left-0 bottom-0 bg-[#831843]/40 z-50 item-center justify-center" + (hidden ? ' flex' : ' hidden')}>
                         <div className="flex flex-col items-center w-[300px] rounded-2xl bg-black h-fit max-h-full p-8 mt-10 relative">
-                            <button className='bg-pink-900 absolute top-4 right-4 w-5 h-5 rounded-full' onClick={()=> setHidden(!hidden)}>
+                            <button className='bg-pink-900 absolute top-4 right-4 w-5 h-5 rounded-full' onClick={() => setHidden(!hidden)}>
                                 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12.0007 10.5865L16.9504 5.63672L18.3646 7.05093L13.4149 12.0007L18.3646 16.9504L16.9504 18.3646L12.0007 13.4149L7.05093 18.3646L5.63672 16.9504L10.5865 12.0007L5.63672 7.05093L7.05093 5.63672L12.0007 10.5865Z" fill="rgba(255,255,255,1)"></path></svg>
                             </button>
                             <Filters handle={handleLetter} />
