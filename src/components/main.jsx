@@ -1,6 +1,6 @@
 'use client';
 
-import words from "../app/wordList.json";
+import words from "@/app/wordList.json";
 import Aside from "./aside";
 import {useEffect, useState} from "react";
 import Filters from "@/components/filters";
