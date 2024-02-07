@@ -1,16 +1,5 @@
 let translationWords = [];
 
-translationWords["tr"] = {
-  "İçerdiği Harfler": "İçerdiği Harfler",
-  "İlk Harf": "İlk Harf",
-  "İkinci Harf": "İkinci Harf",
-  "Üçüncü Harf": "Üçüncü Harf",
-  "Dördüncü Harf": "Dördüncü Harf",
-  "Beşinci Harf": "Beşinci Harf",
-  "Harf Dışı": "Harf Dışı",
-  Filtrele: "Filtre le",
-};
-
 translationWords["en"] = {
   "İçerdiği Harfler": "Included Letters",
   "İlk Harf": "First Letter",
@@ -19,7 +8,7 @@ translationWords["en"] = {
   "Dördüncü Harf": "Fourth Letter",
   "Beşinci Harf": "Fifth Letter",
   "Harf Dışı": "Non-Letter",
-  "Filtr ele": "Filter",
+  "Filtrele": "Filter",
 };
 
 translationWords["pt"] = {
@@ -30,7 +19,8 @@ translationWords["pt"] = {
   "Dördüncü Harf": "Quarta Letra",
   "Beşinci Harf": "Quinta Letra",
   "Harf Dışı": "Não-Letra",
-  "Filtre le": "Filtro",
+  "Filtrele": "Filtro",
+  'Wordle Türkiye Kelime Bulutu' : 'Wordle Portugal Word Cloud'
 };
 
 translationWords["se"] = {
@@ -41,7 +31,8 @@ translationWords["se"] = {
   "Dördüncü Harf": "Fjärde Bokstaven",
   "Beşinci Harf": "Femte Bokstaven",
   "Harf Dışı": "Icke-Bokstav",
-  "Filtre le": "Filtrera",
+  "Filtrele": "Filtrera",
+  'Wordle Türkiye Kelime Bulutu' : 'Wordle Sweden Word Cloud'
 };
 translationWords["gal"] = {
   "İçerdiği Harfler": "Contén Letras",
@@ -51,7 +42,8 @@ translationWords["gal"] = {
   "Dördüncü Harf": "Cuarta Letra",
   "Beşinci Harf": "Quinta Letra",
   "Harf Dışı": "Non-Letter",
-  "Filtre le": "Filtro",
+  "Filtrele": "Filtro",
+  'Wordle Türkiye Kelime Bulutu' : 'Wordle Galicia Word Cloud'
 };
 
 translationWords["eus"] = {
@@ -62,7 +54,8 @@ translationWords["eus"] = {
   "Dördüncü Harf": "Laugarren Letra",
   "Beşinci Harf": "Bostgarren Letra",
   "Harf Dışı": "Letra barne",
-  "Filtre le": "Iragazki",
+  "Filtrele": "Iragazki",
+  'Wordle Türkiye Kelime Bulutu' : 'Wordle Euskara Word Cloud'
 };
 
 translationWords["ru"] = {
@@ -73,7 +66,8 @@ translationWords["ru"] = {
   "Dördüncü Harf": "Четвертая буква",
   "Beşinci Harf": "Пятая буква",
   "Harf Dışı": "Не буква",
-  "Filtre le": "Фильтр",
+  "Filtrele": "Фильтр",
+  'Wordle Türkiye Kelime Bulutu' : 'Wordle Russian Word Cloud'
 };
 
 translationWords["it"] = {
@@ -84,7 +78,8 @@ translationWords["it"] = {
   "Dördüncü Harf": "Quarta Lettera",
   "Beşinci Harf": "Quinta Lettera",
   "Harf Dışı": "Non Lettera",
-  "Filtre le": "Filtro",
+  "Filtrele": "Filtro",
+  'Wordle Türkiye Kelime Bulutu' : 'Wordle Italian Word Cloud'
 };
 
 translationWords["es"] = {
@@ -95,7 +90,8 @@ translationWords["es"] = {
   "Dördüncü Harf": "Cuarta Letra",
   "Beşinci Harf": "Quinta Letra",
   "Harf Dışı": "No Letra",
-  "Filtre le": "Filtrar",
+  "Filtrele": "Filtrar",
+  'Wordle Türkiye Kelime Bulutu' : 'Wordle Spanish Word Cloud'
 };
 
 translationWords["de"] = {
@@ -106,7 +102,8 @@ translationWords["de"] = {
   "Dördüncü Harf": "Vierter Buchstabe",
   "Beşinci Harf": "Fünfter Buchstabe",
   "Harf Dışı": "Nicht-Buchstabe",
-  "Filtre le": "Filtern",
+  "Filtrele": "Filtern",
+  'Wordle Türkiye Kelime Bulutu' : 'Wordle German Word Cloud'
 };
 
 translationWords["fr"] = {
@@ -117,7 +114,8 @@ translationWords["fr"] = {
   "Dördüncü Harf": "Quatrième lettre",
   "Beşinci Harf": "Cinquième lettre",
   "Harf Dışı": "Non-Lettre",
-  "Filtre le": "Filtrer",
+  "Filtrele": "Filtrer",
+  'Wordle Türkiye Kelime Bulutu' : 'Wordle French Word Cloud'
 };
 
 export default translationWords;

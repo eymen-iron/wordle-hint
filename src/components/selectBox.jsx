@@ -15,10 +15,7 @@ export default function SelectLanguage({ data, lang, setLang, className }) {
   return (
     <select
       name="lang"
-      className={
-        "w-full border-none bg-transparent text-red-500 outline-none" +
-        (className ? " " + className : "")
-      }
+      className="lg:w-full w-[130px] mr-4 lg:mr-0 border-none bg-transparent text-red-500 outline-none" 
       onChange={(e) => setLang(e.target.value)}
       value={lang}
     >

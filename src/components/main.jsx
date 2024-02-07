@@ -5,6 +5,7 @@ import Aside from "./aside";
 import { useEffect, useState, useRef } from "react";
 import Filters from "@/components/filters";
 import SelectLanguage from "./selectBox";
+import { __ } from "@/utils/transilation";
 
 const PageRoot = () => {
   const boxRef = useRef();
@@ -148,13 +149,13 @@ const PageRoot = () => {
             data={data}
             setLang={setSelectedLanguage}
             lang={selectedLanguage}
-            className="mr-4 w-[130px]"
+            className=" mr-4 max-w-[130px]"
           />
           <button
             className="rounded-[8px] bg-amber-300 p-1 px-2 text-white "
             onClick={() => setHidden(!hidden)}
           >
-            Filtrele
+            {__("Filtrele" , selectedLanguage)}
           </button>
           <div
             ref={boxRef}
