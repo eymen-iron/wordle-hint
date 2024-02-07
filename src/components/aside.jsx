@@ -1,16 +1,24 @@
-'use client';
-
+"use client";
 
 import Filters from "@/components/filters";
+import SelectLanguage from "./selectBox";
 
-const Aside = ({handle}) => {
-
-    return (
-        <aside className='hidden lg:flex flex-col gap-3 w-[280px] py-4 pr-2 border-r-2 border-[#db2777] h-screen'>
-            <Filters handle={handle}/>
-            <a href="https://www.instagram.com/simeon_eymen" target='_blanksu ' className="mt-auto text-purple-400 text-start">@simeon_eymen</a>
-        </aside>
-    );
-}
+const Aside = ({ handle, data, setLang, lang }) => {
+  return (
+    <aside className="hidden h-screen w-[280px] flex-col gap-3 border-r-2 border-[#db2777] py-4 pr-2 lg:flex">
+      <Filters handle={handle} lang={lang} />
+      <div className="relative mt-auto w-full">
+        <a
+          href="https://www.instagram.com/simeon_eymen"
+          target="_blank"
+          className="text-start text-purple-400"
+        >
+          @simeon_eymen
+        </a>
+        <SelectLanguage setLang={setLang} lang={lang} data={data} />
+      </div>
+    </aside>
+  );
+};
 
 export default Aside;
