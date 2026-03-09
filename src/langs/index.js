@@ -10,18 +10,18 @@ import pt from "./wordleList_pt.json";
 import ru from "./wordleList_ru.json";
 import se from "./wordleList_se.json";
 
-let data = [];
-
-data["tr"] = tr;
-data["en"] = en;
-data["de"] = de;
-data["es"] = es;
-data["eus"] = eus;
-data["fr"] = fr;
-data["gal"] = gal;
-data["it"] = it;
-data["pt"] = pt;
-data["ru"] = ru;
-data["se"] = se;
+const data = {
+  tr,
+  en,
+  de,
+  es,
+  eus,
+  fr,
+  gal,
+  it,
+  pt,
+  ru,
+  se,
+};
 
 export default data;

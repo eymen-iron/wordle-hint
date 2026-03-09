@@ -1,4 +1,4 @@
-let translationWords = [];
+let translationWords = {};
 
 translationWords["en"] = {
   "İçerdiği Harfler": "Included Letters",
@@ -9,6 +9,7 @@ translationWords["en"] = {
   "Beşinci Harf": "Fifth Letter",
   "Harf Dışı": "Non-Letter",
   "Filtrele": "Filter",
+  "Temizle": "Clear",
 };
 
 translationWords["pt"] = {
@@ -20,6 +21,7 @@ translationWords["pt"] = {
   "Beşinci Harf": "Quinta Letra",
   "Harf Dışı": "Não-Letra",
   "Filtrele": "Filtro",
+  "Temizle": "Limpar",
   'Wordle Türkiye Kelime Bulutu' : 'Wordle Portugal Word Cloud'
 };
 
@@ -32,6 +34,7 @@ translationWords["se"] = {
   "Beşinci Harf": "Femte Bokstaven",
   "Harf Dışı": "Icke-Bokstav",
   "Filtrele": "Filtrera",
+  "Temizle": "Rensa",
   'Wordle Türkiye Kelime Bulutu' : 'Wordle Sweden Word Cloud'
 };
 translationWords["gal"] = {
@@ -43,6 +46,7 @@ translationWords["gal"] = {
   "Beşinci Harf": "Quinta Letra",
   "Harf Dışı": "Non-Letter",
   "Filtrele": "Filtro",
+  "Temizle": "Limpar",
   'Wordle Türkiye Kelime Bulutu' : 'Wordle Galicia Word Cloud'
 };
 
@@ -55,6 +59,7 @@ translationWords["eus"] = {
   "Beşinci Harf": "Bostgarren Letra",
   "Harf Dışı": "Letra barne",
   "Filtrele": "Iragazki",
+  "Temizle": "Garbitu",
   'Wordle Türkiye Kelime Bulutu' : 'Wordle Euskara Word Cloud'
 };
 
@@ -67,6 +72,7 @@ translationWords["ru"] = {
   "Beşinci Harf": "Пятая буква",
   "Harf Dışı": "Не буква",
   "Filtrele": "Фильтр",
+  "Temizle": "Очистить",
   'Wordle Türkiye Kelime Bulutu' : 'Wordle Russian Word Cloud'
 };
 
@@ -79,6 +85,7 @@ translationWords["it"] = {
   "Beşinci Harf": "Quinta Lettera",
   "Harf Dışı": "Non Lettera",
   "Filtrele": "Filtro",
+  "Temizle": "Cancella",
   'Wordle Türkiye Kelime Bulutu' : 'Wordle Italian Word Cloud'
 };
 
@@ -91,6 +98,7 @@ translationWords["es"] = {
   "Beşinci Harf": "Quinta Letra",
   "Harf Dışı": "No Letra",
   "Filtrele": "Filtrar",
+  "Temizle": "Limpiar",
   'Wordle Türkiye Kelime Bulutu' : 'Wordle Spanish Word Cloud'
 };
 
@@ -103,6 +111,7 @@ translationWords["de"] = {
   "Beşinci Harf": "Fünfter Buchstabe",
   "Harf Dışı": "Nicht-Buchstabe",
   "Filtrele": "Filtern",
+  "Temizle": "Loschen",
   'Wordle Türkiye Kelime Bulutu' : 'Wordle German Word Cloud'
 };
 
@@ -115,6 +124,7 @@ translationWords["fr"] = {
   "Beşinci Harf": "Cinquième lettre",
   "Harf Dışı": "Non-Lettre",
   "Filtrele": "Filtrer",
+  "Temizle": "Effacer",
   'Wordle Türkiye Kelime Bulutu' : 'Wordle French Word Cloud'
 };
 
