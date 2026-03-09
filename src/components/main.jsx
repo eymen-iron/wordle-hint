@@ -147,7 +147,7 @@ const PageRoot = () => {
   }, [boxRef]);
 
   return (
-    <main className="relative mx-auto h-screen max-w-[1400px]">
+    <main className="relative mx-auto h-screen max-w-[1400px] overflow-hidden">
       {/* Toast */}
       {toast.word && (
         <div
@@ -227,7 +227,7 @@ const PageRoot = () => {
         />
 
         {/* Word Grid */}
-        <div className="flex w-full flex-1 flex-col overflow-hidden lg:w-[calc(100%-280px)]">
+        <div className="flex h-full w-full min-h-0 flex-col lg:w-[calc(100%-280px)]">
           {/* Header bar */}
           <div className="hidden items-center justify-between border-b border-[#2a2a3e] px-5 py-3 lg:flex">
             <h1 className="bg-gradient-to-r from-pink-500 to-purple-500 bg-clip-text text-xl font-bold tracking-tight text-transparent">
@@ -248,7 +248,7 @@ const PageRoot = () => {
           </div>
 
           {/* Words */}
-          <div className="flex-1 overflow-y-auto p-4">
+          <div className="min-h-0 flex-1 overflow-y-auto p-4">
             {arr.length === 0 ? (
               <div className="flex h-40 flex-col items-center justify-center text-gray-500">
                 <svg
